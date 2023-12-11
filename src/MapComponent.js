@@ -265,12 +265,6 @@ const MapComponent = () => {
                 />
               )
           )}
-          {buildings.map((building) => (
-            <Marker
-              key={building.id}
-              position={{ lat: building.lat, lng: building.lng }}
-            />
-          ))}
         </GoogleMap>
       </div>
     </LoadScript>
